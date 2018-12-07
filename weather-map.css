@@ -1,0 +1,43 @@
+body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fancy-background {
+    margin-top: 2em;
+    background-color: #1b557a;
+    border-radius: 25px;
+    width: 90%;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.weather-header {
+    font-weight: bold;
+}
+
+#map {
+    border-radius: 25px;
+    margin-top: 2em;
+    height: 90vh;
+    width: 100%;
+}
+
+.border-radius-round {
+    border-radius: 25px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-4 {
+    margin-top: 1em;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
