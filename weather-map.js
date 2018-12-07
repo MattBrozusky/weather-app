@@ -73,10 +73,10 @@ $(document).ready(function () {
 
 
     $(document).on('mouseenter', '.extra-content', function () {
-        $(this).children().children().next().fadeIn(750).removeClass("hide");
+        $(this).children().children().next().stop().fadeIn(500).removeClass("hide");
     });
     $(document).on('mouseleave', '.extra-content', function () {
-        $(this).children().children().next().fadeOut(750);
+        $(this).children().children().next().stop().fadeOut(500);
     });
     
     //------------------
